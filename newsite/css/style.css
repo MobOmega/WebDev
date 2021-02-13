@@ -1,20 +1,27 @@
 /*********************************** Tag Selectors ***********************************/
 
 body {
-  background-color: #e8e8e8;
-  color: #222831;
+  background-color: #1b262c;
+  color: #e8e8e8;
   font-family: 'Oxygen';
 }
 
 /*********************************** Class Selectors ***********************************/
 
 .header {
-  color: #30475e;
+  color: #16c196;
   font-family: 'Ubuntu';
 }
 
 .header:hover {
-  color: #f05454;
+  color: #75cfb8;
+}
+
+.logo {
+  height: 50px;
+  border-radius: 100%;
+  border-width: 100px;
+  border-color: #16c196;
 }
 
 /*********************************** ID Selectors ***********************************/
