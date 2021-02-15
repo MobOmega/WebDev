@@ -1,9 +1,12 @@
 /*********************************** Tag Selectors ***********************************/
 
 body {
-  background-color: #393e46;
-  color: #eeeeee;
+  background-color: #9fb8ad;
+  color: #383e56;
   font-family: 'Oxygen', sans-serif;
+  text-indent: 50px;
+  display: block;
+  margin: 2em;
 }
 
 img {
@@ -12,22 +15,23 @@ img {
 }
 
 img:hover {
-  height: 200px;
-  background-color: gold;
+  height: 100px;
+  width: 300px;
+  background-color: #c5d7bd;
 }
 
 h1 {
-  color: #00adb5;
+  color: #fb743e;
   font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
-  color: #00adb5;
+  color: #fb743e;
   font-family: 'Ubuntu', sans-serif;
 }
 
 hr {
-  color: #eeeeee;
+  color: #383e56;
   border-style: none none dotted none;
   border-width: 5px;
   width: 5%;
