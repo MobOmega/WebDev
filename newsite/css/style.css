@@ -50,10 +50,10 @@ hr {
   height: 1000px;
   padding-left: 0;
   background-color: #1b262c;
-  background-image: url(https://tistory1.daumcdn.net/tistory/2980699/skin/images/landscape_bg3.png);
-  /* https://www.pinclipart.com/picdir/big/397-3976699_illustration-flat-planet-minimalist-png-and-vector-circle.png*/
+  /* background-image: url(https://tistory1.daumcdn.net/tistory/2980699/skin/images/landscape_bg3.png); */
+  /* background-image: url(https://www.pinclipart.com/picdir/big/397-3976699_illustration-flat-planet-minimalist-png-and-vector-circle.png); */
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: 500px;
 }
 
 .middiv {
@@ -61,11 +61,20 @@ hr {
 }
 
 .bottomdiv {
-  background-color: #253042;
+  background-color: #353042;
 }
 
 .lazy {
   font-family: 'Ranchers', cursive;
+}
+
+.space {
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+
 }
 
 /*********************************** ID Selectors ***********************************/
