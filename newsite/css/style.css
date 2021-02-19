@@ -9,8 +9,8 @@ body {
 }
 
 div {
-  height: 200px;
-  width: 400px;
+  height: 375px;
+  width: 375px;
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -21,7 +21,6 @@ hr {
   border-width: 5px;
   width: 5%;
 }
-
 
 /*********************************** Class Selectors ***********************************/
 
@@ -47,7 +46,7 @@ hr {
 
 .topdiv {
   width: 100%;
-  height: 1000px;
+  height: 750px;
   padding-left: 0;
   background-color: #1b262c;
   /* background-image: url(https://tistory1.daumcdn.net/tistory/2980699/skin/images/landscape_bg3.png); */
@@ -61,7 +60,7 @@ hr {
 }
 
 .bottomdiv {
-  background-color: #353042;
+  background-color: #403547;
 }
 
 .lazy {
@@ -69,12 +68,20 @@ hr {
 }
 
 .space {
-  height: 50%;
+  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
+}
 
+.sidebar {
+  height: 100%;
+  width: 100px;
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  background-color: #153445;
 }
 
 /*********************************** ID Selectors ***********************************/
