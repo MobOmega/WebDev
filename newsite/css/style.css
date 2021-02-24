@@ -74,8 +74,8 @@ h1 {
 
 .bottomdiv {
   background-color: #403547;
+  display: block;
   text-align: center;
-  display: inline;
   position: absolute;
   right: 0;
 }
@@ -122,20 +122,79 @@ h1 {
 }
 
 .skill-row {
-  width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
-}
-
-.skill-row-text {
-  clear: left;
+  height: 100px;
 }
 
 .skill-row-image {
   line-height: 2;
-  float: left;
   width: 25%;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.BUTTON_IKG {
+   background: #FF815A;
+   background-image: -webkit-linear-gradient(top, #FF815A, #F63D3D);
+   background-image: -moz-linear-gradient(top, #FF815A, #F63D3D);
+   background-image: -ms-linear-gradient(top, #FF815A, #F63D3D);
+   background-image: -o-linear-gradient(top, #FF815A, #F63D3D);
+   background-image: -webkit-gradient(to bottom, #FF815A, #F63D3D);
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   color: #000000;
+   font-family: Open Sans;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: outset #000000 5px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_IKG:hover {
+   border: outset #000000 5px;
+   background: #D01E48;
+   background-image: -webkit-linear-gradient(top, #D01E48, #F63D3D);
+   background-image: -moz-linear-gradient(top, #D01E48, #F63D3D);
+   background-image: -ms-linear-gradient(top, #D01E48, #F63D3D);
+   background-image: -o-linear-gradient(top, #D01E48, #F63D3D);
+   background-image: -webkit-gradient(to bottom, #D01E48, #F63D3D);
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   text-decoration: none;
+}
+
+.spaced {
+  width: 99%;
+  height: 100px;
+  position: absolute;
+  top: 1550px;
+  text-align: center;
+  margin: 0 auto;
+  display: block
 }
 
 /*********************************** ID Selectors ***********************************/
