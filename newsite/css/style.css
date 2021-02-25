@@ -9,7 +9,7 @@ body {
 }
 
 div {
-  height: 750px;
+  height: 100%;
   width: 50%;
   padding-top: 10px;
   padding-left: 10px;
@@ -55,7 +55,7 @@ h1 {
 
 .topdiv {
   width: 100%;
-  height: 750px;
+  height: 100%;
   padding-left: 0;
   padding-top: 40px;
   background-color: #1b262c;
@@ -78,6 +78,7 @@ h1 {
   text-align: center;
   position: absolute;
   right: 0;
+  height: 100%;
 }
 
 .lazy {
