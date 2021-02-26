@@ -1,3 +1,4 @@
 # WebDev
-Web Development Class\n
+Web Development Class
+---
 [Website](https://mobomega.github.io/WebDev/newsite)
