@@ -1,0 +1,114 @@
+/********************************* Primary Selectors *********************************/
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/********************************* Class Selectors *********************************/
+
+.brand-name {
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.spaced {
+  padding-left: 50px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.rotated {
+    transform: rotate(25deg);
+}
+
+.feature-box {
+    padding: 3rem 3rem 3rem 3rem;
+    text-align: center;
+}
+
+.sub-sub-heading {
+    color: #a3a3a3;
+}
+
+.color-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.color-icon:hover {
+    color: #ff4161;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img {
+  padding-bottom: 5%;
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-indicators {
+  bottom: 25px;
+}
+
+/********************************* Id Selectors *********************************/
+
+#features {
+  margin: 100px 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 40px;
+}
+
+#passwordBox {
+  font-family: 'Ubuntu';
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+}
