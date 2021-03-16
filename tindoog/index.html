@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/over.css">
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -32,7 +33,7 @@
 
 <body>
 
-  <section id="title">
+  <section id="title" class="container-fluid">
 
     <!-- Nav Bar -->
 
@@ -65,8 +66,8 @@
           <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
       </div>
-      <div class="col-md-6 col-12">
-        <img class="rotated" src="https://tindog.ml/images/iphone6.png" alt="iphone-mockup">
+      <div class="col-md-6 col-12 spaced">
+        <img class="rotated iphone-image" src="https://tindog.ml/images/iphone6.png" alt="iphone-mockup">
       </div>
     </div>
 
@@ -76,16 +77,6 @@
     src="https://www.youtube.com/embed/RRubcjpTkks?autoplay=1">
   </iframe>
 -->
-<div>
-  <p>Please enter the password to view this website.</p>
-
-  <p>Password:<input id="passwordBox" type="password" /></p>
-
-  <a href="password.html" onclick="return checkPassword();">Click here to submit password and view website</a>
-</div>
-  <iframe width="500" height="280" src="https://www.youtube.com/embed/RRubcjpTkks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <!-- Features -->
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSXT5b7scogAW1pCKEhKxeu48pzcSeBIHkAaKGffYBHIEgRV2HHXwZZZtmqdDD4NdV7Atu0W5l0oDg9/pubhtml?widget=true&amp;headers=false"></iframe>
 
     <section id="features" class="row">
 
@@ -162,7 +153,7 @@
   <!-- Press -->
 
   <section id="press">
-    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/TechCrunch.png" alt="tc-logo">
     <img class="press-img" src="images/tnw.png" alt="tnw-logo">
     <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-img" src="images/mashable.png" alt="mashable-logo">
@@ -174,44 +165,70 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2 class="pricing-header">A Plan for Every Dog's Needs</h2>
+    <p class="pricing-desc">Simple and affordable price plans for your and your dog.</p>
 
+    <div class="row">
+      <div class="col-lg-4 col-md-6 pricing">
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>200 Free Matches</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark download-button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 pricing">
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>100 Matches Per Day</p>
+            <p>Unlimited Messages</p>
+            <p>1000 Total Matches</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-secondary download-button">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+      <div class="col-lg-4 col-md-12 pricing">
+        <div class="card border-secondary">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-primary download-button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
   <!-- Call to Action -->
 
   <section id="cta">
+    <div class="">
+      <h3>Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    </div>
+
 
   </section>
 
