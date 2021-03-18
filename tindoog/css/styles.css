@@ -5,18 +5,12 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat';
-  font-size: 3rem;
-  line-height: 1.5;
   font-weight: 900;
   color: #fff;
 }
 
 h2 {
-  font-family: 'Montserrat';
   font-weight: 500;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 p {
@@ -27,48 +21,33 @@ p {
 
 /********************************* Class Selectors *********************************/
 
+/* B */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .brand-name {
   font-size: 32px;
   margin-left: 20px;
 }
 
-.spaced {
-  padding-left: 50px;
+/* C */
+
+.card {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+.carousel-item {
+  padding: 7% 15%;
 }
 
-.navbar {
-    padding-bottom: 4.5rem;
-}
-
-.nav-item {
-    padding: 0 18px;
-}
-
-.download-button {
-    margin: 5% 3% 5% 0;
-}
-
-.rotated {
-    transform: rotate(25deg);
-}
-
-.iphone-image {
-  width: 50%;
-  position: absolute;
-  right: 30%;
-}
-
-.feature-box {
-    padding: 3rem 3rem 3rem 3rem;
-    text-align: center;
-}
-
-.sub-sub-heading {
-    color: #a3a3a3;
+.carousel-indicators {
+  bottom: 25px;
 }
 
 .color-icon {
@@ -80,11 +59,47 @@ p {
     color: #ff4161;
 }
 
-.testimonial-img {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+.container-fluid {
+    padding: 3% 7% 7%;
 }
+
+/* D */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* F */
+
+.feature-box {
+    padding: 3rem 3rem 3rem 3rem;
+    text-align: center;
+}
+
+.foot {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+/* I */
+
+.iphone-image {
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+/* N */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/* P */
 
 .press-img {
   padding-bottom: 5%;
@@ -92,24 +107,14 @@ p {
   margin: 20px 20px 50px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-.carousel-indicators {
-  bottom: 25px;
-}
-
-.row {
-  width: 100%;
-}
-
 .pricing {
   padding: 3% 2%;
 }
 
-.card {
-  text-align: center;
+.pricing-desc {
+  font-family: 'Ubuntu';
+  font-size: 1rem;
+  color: #a3a3a3;
 }
 
 .pricing-header {
@@ -119,13 +124,54 @@ p {
   line-height: 1.5;
 }
 
-.pricing-desc {
-  font-family: 'Ubuntu';
-  font-size: 1rem;
-  color: #a3a3a3;
+/* R */
+
+.rotated {
+    transform: rotate(25deg);
+}
+
+.row {
+  width: 100%;
+}
+
+/* S */
+
+.spaced {
+  padding-left: 50px;
+}
+
+.sub-sub-heading {
+    color: #a3a3a3;
+}
+
+/* T */
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* W */
+
+.watermark {
+  visibility: hidden;
+  position: absolute;
+  display: inline-block;
+  z-index: 50000;
+  height: 380%;
+  width: 100%;
 }
 
 /********************************* Id Selectors *********************************/
+
+/* Organized in order of appearance on page */
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 40px;
+  height: 44rem;
+}
 
 #features {
   padding: 7% 15%;
@@ -134,17 +180,6 @@ p {
   background-color: #fff;
   z-index: 1;
   position: relative;
-}
-
-#title {
-  background-color: #ff4c68;
-  padding-bottom: 40px;
-  height: 44rem;
-
-}
-
-#passwordBox {
-  font-family: 'Ubuntu';
 }
 
 #testimonials {
@@ -156,6 +191,11 @@ p {
 #press {
   text-align: center;
   background-color: #ef8172;
+}
+
+#pricing {
+  text-align: center;
+  padding-top: 2rem;
 }
 
 #cta {
@@ -173,7 +213,45 @@ p {
   padding-bottom: 2rem;
 }
 
-#pricing {
-  text-align: center;
-  padding-top: 2rem;
+/* @media Selectors */
+
+@media (max-width: 1028px) {
+  /* Default Selectors*/
+  p {
+    font-size: 1em;
+  }
+  /* Class Selectors*/
+  .big-heading {
+    font-size: 2rem;
+  }
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .pricing-header {
+    font-size: 2rem;
+  }
+  /* Id Selectors */
+  #title {
+    text-align: center;
+    height: 48rem;
+  }
+  #features {
+    text-align: center;
+  }
+  #testimonials {
+    text-align: center;
+  }
+  #press {
+    text-align: center;
+  }
+  #pricing {
+    text-align: center;
+  }
+  #cta {
+    text-align: center;
+  }
+  #footer {
+    text-align: center;
+  }
 }
