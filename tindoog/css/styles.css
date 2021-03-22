@@ -1,7 +1,11 @@
 /********************************* Primary Selectors *********************************/
 
-body {
+body, p {
   font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat';
 }
 
 h1 {
@@ -11,10 +15,6 @@ h1 {
 
 h2 {
   font-weight: 500;
-}
-
-p {
-  font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -50,30 +50,48 @@ p {
   bottom: 25px;
 }
 
+.center-align {
+  text-align: center;
+}
+
 .color-icon {
-    color: #ef8172;
-    margin-bottom: 1rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
 .color-icon:hover {
-    color: #ff4161;
+  color: #ff4161;
+}
+
+.color-section-primary {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.color-section {
+  background-color: #ef8172;
+  color: #fff;
 }
 
 .container-fluid {
-    padding: 3% 7% 7%;
+  padding: 3% 7% 7%;
+}
+
+#title.container-fluid {
+  padding: 3% 7%;
 }
 
 /* D */
 
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 /* F */
 
 .feature-box {
-    padding: 3rem 3rem 3rem 3rem;
-    text-align: center;
+  padding: 3rem 3rem 3rem 3rem;
+  text-align: center;
 }
 
 .foot {
@@ -92,11 +110,11 @@ p {
 /* N */
 
 .navbar {
-    padding-bottom: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 /* P */
@@ -127,7 +145,7 @@ p {
 /* R */
 
 .rotated {
-    transform: rotate(25deg);
+  transform: rotate(25deg);
 }
 
 .row {
@@ -141,7 +159,7 @@ p {
 }
 
 .sub-sub-heading {
-    color: #a3a3a3;
+  color: #a3a3a3;
 }
 
 /* T */
@@ -163,53 +181,50 @@ p {
   width: 100%;
 }
 
+.white-section {
+  color: #000;
+  background-color: #fff;
+}
+
 /********************************* Id Selectors *********************************/
 
 /* Organized in order of appearance on page */
 
+#something {
+  color: #fff;
+}
+
 #title {
-  background-color: #ff4c68;
   padding-bottom: 40px;
   height: 44rem;
 }
 
 #features {
   padding: 7% 15%;
-  text-align: center;
   line-height: 1.5;
-  background-color: #fff;
   z-index: 1;
   position: relative;
 }
 
 #testimonials {
-  text-align: center;
-  background-color: #ef8172;
-  color: #fff;
+  padding: inhherit;
 }
 
 #press {
-  text-align: center;
-  background-color: #ef8172;
+  padding: inhherit;
 }
 
 #pricing {
-  text-align: center;
   padding-top: 2rem;
 }
 
 #cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
   padding-top: 2rem;
   line-height: 2px;
 }
 
 #footer {
-  background-color: #ff4c68;
   text-align: center;
-  color: #fff;
   padding-bottom: 2rem;
 }
 
@@ -231,27 +246,12 @@ p {
   .pricing-header {
     font-size: 2rem;
   }
+  .center-align {
+    text-align: center;
+  }
   /* Id Selectors */
   #title {
     text-align: center;
     height: 48rem;
-  }
-  #features {
-    text-align: center;
-  }
-  #testimonials {
-    text-align: center;
-  }
-  #press {
-    text-align: center;
-  }
-  #pricing {
-    text-align: center;
-  }
-  #cta {
-    text-align: center;
-  }
-  #footer {
-    text-align: center;
   }
 }
