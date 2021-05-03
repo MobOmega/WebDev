@@ -1,0 +1,18 @@
+.navicon {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.navicon:hover {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(360deg)
+}
+
+#editor {
+        position: absolute;
+        top: 4rem;
+        right: 10%;
+        bottom: 0;
+        left: 0;
+    }
