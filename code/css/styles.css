@@ -11,8 +11,28 @@
 
 #editor {
         position: absolute;
-        top: 4rem;
+        top: 2rem;
         right: 10%;
         bottom: 0;
         left: 0;
     }
+
+.ace_editor {
+  border: 1px solid lightgray;
+  margin: auto
+}
+
+.editor {
+    color: #fff;
+    background: #282a36;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 240px;
+    letter-spacing: normal;
+    line-height: 20px;
+    padding: 8rem;
+    tab-size: 4;
+}
