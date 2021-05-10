@@ -23,29 +23,56 @@
 
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-small navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="nav-link" href="#"><i class="fas fa-home home-icon"></i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon navicon"></span>
+        <span class="navbar-toggler-icon navicon" onclick="this.classList.toggle('spinning')"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav ml-auto nav-align">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Web Dev
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Main Page</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Front End</a>
+              <a class="dropdown-item" href="#">Back End</a>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Game Dev
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Main Page</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Languages</a>
+              <a class="dropdown-item" href="#">Development Environments</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Programming
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Main Page</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Languages</a>
+              <a class="dropdown-item" href="#">Applications</a>
             </div>
           </li>
         </ul>
       </div>
     </nav>
+    <div data-pym-src=
+"https://www.jdoodle.com/embed/v0/3ixt?stdin=1&arg=0" class="top-div">
+    </div>
+    <script src=
+"https://www.jdoodle.com/assets/jdoodle-pym.min.js"
+        type="text/javascript">
+    </script>
 
 <!-- shenanigans -->
 
