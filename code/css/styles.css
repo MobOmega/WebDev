@@ -1,3 +1,13 @@
+body {
+  color: #EDF2F4;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.heading {
+  font-family: 'JetBrains Mono', sans-serif;
+  line-height: 8rem;
+}
+
 .navicon {
   animation-name: default;
   animation-duration: 0.5s;
@@ -15,8 +25,28 @@
 
 
 .top-div {
-  padding-top: 4rem;
   background-color: #383B50;
+  text-align: center;
+  padding: 4rem 12rem 2rem;
+  line-height: 2rem;
+}
+
+.mid-div-main {
+  background-color: #2B2D42;
+  text-align: center;
+  padding: 2rem 12rem;
+  line-height: 2rem;
+}
+
+.bottom-div {
+  background-color: #383B50;
+  text-align: center;
+  padding: 2rem 12rem;
+  line-height: 2rem;
+}
+
+.side-list {
+  text-align: left;
 }
 
 .home-icon {
@@ -53,7 +83,6 @@
     }
     to {
         transform:rotate(180deg);
-
     }
 
 }
