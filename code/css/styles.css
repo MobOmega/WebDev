@@ -3,6 +3,15 @@ body {
   font-family: 'Open-Sans', sans-serif;
 }
 
+a {
+  color: #D1D9E6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FAFAFA;
+}
+
 .heading {
   font-family: 'JetBrains Mono', sans-serif;
   line-height: 8rem;
