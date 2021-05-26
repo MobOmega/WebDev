@@ -14,7 +14,8 @@ a:hover {
 
 .heading {
   font-family: 'JetBrains Mono', sans-serif;
-  line-height: 8rem;
+  line-height: 7rem;
+  font-size: 1.75rem;
 }
 
 .navicon {
@@ -22,6 +23,33 @@ a:hover {
   animation-duration: 0.5s;
   animation-timing-function: ease;
 }
+
+.parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("../images/code.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  filter: blur(50%) !important;
+  filter: opacity(20%) !important;
+  filter: brightness(50%) !important;
+}
+
+.parallax h1 {
+  padding: 25%;
+  filter: none;
+  color: #FFF;
+}
+
+
 
 @keyframes default {
     from {
