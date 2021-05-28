@@ -14,7 +14,7 @@ a:hover {
 
 .heading {
   font-family: 'JetBrains Mono', sans-serif;
-  line-height: 7rem;
+  line-height: 2rem;
   font-size: 1.75rem;
 }
 
@@ -27,10 +27,11 @@ a:hover {
 .parallax {
   /* The image used */
   padding-top: 4rem;
-  background-image: url("../images/code.jpg");
+  background-image: url("../images/code.png");
 
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 100px;
+  height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -41,14 +42,52 @@ a:hover {
   filter: blur(50%) !important;
   filter: opacity(20%) !important;
   filter: brightness(50%) !important;
+  z-index: 9;
 }
 
-.parallax h1 {
-  padding: 25%;
+.lang-parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("../images/languages.png");
+
+  /* Set a specific height */
+  min-height: 200px;
+  height: 650px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+  filter: opacity(20%) !important;
+  filter: brightness(50%) !important;
+
+  z-index: 9;
+}
+
+.parallax-header {
   filter: none;
   color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
 }
 
+.lang-parallax-header {
+  filter: none;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
+}
 
 
 @keyframes default {
@@ -62,6 +101,14 @@ a:hover {
 
 
 .top-div {
+  background-color: #383B50;
+  text-align: center;
+  padding: 4rem 12rem 2rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.top-div-main {
   background-color: #383B50;
   text-align: center;
   padding: 4rem 12rem 2rem;
@@ -84,6 +131,28 @@ a:hover {
 
 .side-list {
   text-align: left;
+}
+
+.center-table {
+  margin-top: 10%;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 10px;
+}
+
+th, td {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+td {
+  width: 50%;
+}
+
+thead th, thead td {
+  font-size: 2rem;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .home-icon {
