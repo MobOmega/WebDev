@@ -1,7 +1,4 @@
-body {
-  color: #EDF2F4;
-  font-family: 'Open-Sans', sans-serif;
-}
+/* Regular HTML Elements */
 
 a {
   color: #D1D9E6;
@@ -12,10 +9,221 @@ a:hover {
   color: #FAFAFA;
 }
 
+body {
+  color: #EDF2F4;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+img {
+  border-radius: 5%;
+  border: #EDF2F4;
+}
+
+td {
+  width: 50%;
+}
+
+th, td {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+thead th, thead td {
+  font-size: 2rem;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+/* Classes */
+
+.backend-parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("../images/cloud.jpeg");
+  /* Set a specific height */
+  min-height: 200px;
+  height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  filter: opacity(20%) !important;
+  filter: brightness(50%) !important;
+  z-index: 9;
+}
+
+.backend-parallax-header {
+  filter: none;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
+}
+
+.bottom-div {
+  background-color: #383B50;
+  text-align: center;
+  padding: 2rem 12rem;
+  line-height: 2rem;
+}
+
+.center-table {
+  margin-top: 10%;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 10px;
+}
+
+.dropdown-toggle::after {
+  overflow: hidden;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.devenv-parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("https://store.unity.com/themes/store/images/products/unity/pro/unity-pro-hero.jpg");
+  /* Set a specific height */
+  min-height: 200px;
+  height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  filter: opacity(10%);
+  filter: brightness(40%);
+  z-index: 9;
+}
+
+.devenv-parallax-header {
+  filter: none;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
+}
+
+
+
+.frontend-parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("../images/frontend.jpeg");
+  /* Set a specific height */
+  min-height: 200px;
+  height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  filter: opacity(10%);
+  filter: brightness(40%);
+  z-index: 9;
+}
+
+.frontend-parallax-header {
+  filter: none;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
+}
+
+.gamedev-parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("../images/gamedev.png");
+  /* Set a specific height */
+  min-height: 200px;
+  height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  filter: opacity(10%);
+  filter: brightness(40%);
+  z-index: 9;
+}
+
+.gamedev-parallax-header {
+  filter: none;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
+}
+
 .heading {
   font-family: 'JetBrains Mono', sans-serif;
   line-height: 2rem;
   font-size: 1.75rem;
+}
+
+.home-icon {
+  padding-top: 4px;
+  color: #afafaf;
+  font-size: 2rem;
+}
+
+.lang-parallax {
+  /* The image used */
+  padding-top: 4rem;
+  background-image: url("../images/languages.png");
+  /* Set a specific height */
+  min-height: 200px;
+  height: 650px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  filter: opacity(20%) !important;
+  filter: brightness(50%) !important;
+  z-index: 9;
+}
+
+.lang-parallax-header {
+  filter: none;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 37.5%;
+  right: 37.5%;
+  z-index: 10;
+  line-height: 4rem;
+}
+
+.mid-div-main {
+  background-color: #2B2D42;
+  text-align: center;
+  padding: 2rem 12rem;
+  line-height: 2rem;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
 }
 
 .navicon {
@@ -24,15 +232,19 @@ a:hover {
   animation-timing-function: ease;
 }
 
+.navicon.spinning {
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+}
+
 .parallax {
   /* The image used */
   padding-top: 4rem;
   background-image: url("../images/code.png");
-
   /* Set a specific height */
   min-height: 100px;
   height: 500px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -42,28 +254,6 @@ a:hover {
   filter: blur(50%) !important;
   filter: opacity(20%) !important;
   filter: brightness(50%) !important;
-  z-index: 9;
-}
-
-.lang-parallax {
-  /* The image used */
-  padding-top: 4rem;
-  background-image: url("../images/languages.png");
-
-  /* Set a specific height */
-  min-height: 200px;
-  height: 650px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-
-  filter: opacity(20%) !important;
-  filter: brightness(50%) !important;
-
   z-index: 9;
 }
 
@@ -78,27 +268,14 @@ a:hover {
   line-height: 4rem;
 }
 
-.lang-parallax-header {
-  filter: none;
-  color: #FFF;
-  position: absolute;
-  top: 30%;
-  left: 37.5%;
-  right: 37.5%;
-  z-index: 10;
-  line-height: 4rem;
+.show.dropdown .dropdown-toggle::after {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
 }
 
-
-@keyframes default {
-    from {
-        transform:rotate(180deg);
-    }
-    to {
-        transform:rotate(0deg);
-    }
+.side-list {
+  text-align: left;
 }
-
 
 .top-div {
   background-color: #383B50;
@@ -115,80 +292,52 @@ a:hover {
   line-height: 2rem;
 }
 
-.mid-div-main {
-  background-color: #2B2D42;
-  text-align: center;
-  padding: 2rem 12rem;
-  line-height: 2rem;
-}
-
-.bottom-div {
+.top-div-post {
   background-color: #383B50;
   text-align: center;
   padding: 2rem 12rem;
   line-height: 2rem;
 }
 
-.side-list {
-  text-align: left;
+.unity-header {
+  display: inline;
 }
 
-.center-table {
-  margin-top: 10%;
-  font-size: 1.5rem;
-  width: 100%;
-  padding: 10px;
+.unity-image {
+  margin-right: 27.5%;
+  float: right;
 }
 
-th, td {
-  text-align: left;
-  padding-bottom: 20px;
+.unreal-header {
+  float: right;
+  margin-right: 30%;
 }
 
-td {
-  width: 50%;
+.unreal-image {
+  float: left;
+  display: inline;
+  height: 100px;
+  margin-left: 30%;
 }
 
-thead th, thead td {
-  font-size: 2rem;
-  padding-bottom: 100px;
-  text-align: center;
-}
+/* Animations */
 
-.home-icon {
-  padding-top: 4px;
-  color: #afafaf;
-  font-size: 2rem;
-}
+@keyframes default {
+  from {
+    transform: rotate(180deg);
+  }
 
-.navbar .nav-item:not(:last-child) {
-  margin-right: 35px;
-}
-
-.dropdown-toggle::after {
-  overflow: hidden;
-  transition-duration: 0.5s;
-  transition-property: transform;
-}
-
-.show.dropdown .dropdown-toggle::after {
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-}
-
-
-.navicon.spinning{
-  animation-name: spin;
-  animation-duration: 0.5s;
-  animation-timing-function: ease;
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(180deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
+  to {
+    transform: rotate(180deg);
+  }
 }
